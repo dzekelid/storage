@@ -23,7 +23,7 @@ apis:
   tags: Storage
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/azure-storage/subscriptions-subscriptionid-providers-microsoft-storage-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
