@@ -34,7 +34,7 @@ apis:
   tags: Storage
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/aws-storage-gateway-service/action-addworkingstorage-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/aws-storage-gateway-service/action-describeworkingstorage-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
