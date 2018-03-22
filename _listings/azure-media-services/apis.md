@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Microsoft
 - Media
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/azure-media-services/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Media Services API
@@ -26,7 +26,7 @@ apis:
   tags: Storage
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
