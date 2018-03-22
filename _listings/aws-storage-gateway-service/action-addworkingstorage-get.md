@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddWorkingStorage&k=1:
+  /?Action=AddWorkingStorage:
     get:
       summary: ' Add Working Storage '
       description: Configures one or more gateway local disks as working storage for
