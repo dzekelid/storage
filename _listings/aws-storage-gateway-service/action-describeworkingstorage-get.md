@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeWorkingStorage&k=1:
+  /?Action=DescribeWorkingStorage:
     get:
       summary: ' Describe Working Storage '
       description: Returns information about the working storage of a gateway
