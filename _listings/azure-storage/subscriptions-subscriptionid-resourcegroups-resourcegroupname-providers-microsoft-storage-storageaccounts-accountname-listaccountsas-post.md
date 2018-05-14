@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Storage Accounts List Account SAS
   version: 1.0.0
+  description: List SAS credentials of a storage account.
 host: management.azure.com
 basePath: /
 schemes:
