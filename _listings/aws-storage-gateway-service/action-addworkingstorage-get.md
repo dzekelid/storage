@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Add Working Storage
   version: 1.0.0
+  description: Configures one or more gateway local disks as working storage for a
+    gateway.
 schemes:
 - http
 produces:
