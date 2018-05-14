@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RecoveryServicesClient
+  title: Azure Recovery Service API Backup Storage Configs Update
   version: 1.0.0
+  description: Updates vault storage model type.
 host: management.azure.com
 basePath: /
 schemes:
