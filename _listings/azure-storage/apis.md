@@ -24,19 +24,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-listservicesas-post.md
-- name: Azure Storage API Storage Accounts Get Properties
-  description: Returns the properties for the specified storage account including
-    but not limited to name, SKU name, location, and account status. The ListKeys
-    operation should be used to retrieve storage keys.
+- name: Azure Storage API Storage Accounts Update
+  description: The update operation can be used to update the SKU, encryption, access
+    tier, or tags for a storage account. It can also be used to map the account to
+    a custom domain. Only one custom domain is supported per storage account; the
+    replacement/change of custom domain is not supported. In order to replace an old
+    custom domain, the old value must be cleared/unregistered before a new value can
+    be set. The update of multiple properties is supported. This call does not change
+    the storage keys for the account. If you want to change the storage account keys,
+    use the regenerate keys operation. The location and name of the storage account
+    cannot be changed after creation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
   humanURL: https://azure.microsoft.com/en-us/services/storage/
   baseURL: http:://management.azure.com//
   tags: Storage
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
