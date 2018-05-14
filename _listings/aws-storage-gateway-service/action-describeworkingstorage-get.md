@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe Working Storage
   version: 1.0.0
+  description: Returns information about the working storage of a gateway.
 schemes:
 - http
 produces:
