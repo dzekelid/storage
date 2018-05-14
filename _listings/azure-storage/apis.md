@@ -33,7 +33,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-regeneratekey-post.md
+- name: Azure Storage API Storage Accounts List Account SAS
+  description: List SAS credentials of a storage account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
+  humanURL: https://azure.microsoft.com/en-us/services/storage/
+  baseURL: http:://management.azure.com//
+  tags: Storage
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-listaccountsas-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/storage/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/storage/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/storage/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/storage/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
 - type: x-pricing
