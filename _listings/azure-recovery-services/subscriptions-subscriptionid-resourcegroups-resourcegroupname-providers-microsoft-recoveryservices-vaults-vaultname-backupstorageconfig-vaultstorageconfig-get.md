@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RecoveryServicesClient
+  title: Azure Recovery Service API Backup Storage Configs Get
   version: 1.0.0
+  description: Fetches resource storage config.
 host: management.azure.com
 basePath: /
 schemes:
