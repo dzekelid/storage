@@ -28,17 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-backupstorageconfig-vaultstorageconfig-patch.md
-- name: Azure Recovery Service API Backup Storage Configs Get
-  description: Fetches resource storage config.
+- name: Azure Recovery Service API Backup Storage Configs Update
+  description: Updates vault storage model type.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-site-recovery.png
   humanURL: https://azure.microsoft.com/en-us/services/site-recovery/
   baseURL: http:://management.azure.com//
   tags: Storage
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-backupstorageconfig-vaultstorageconfig-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-backupstorageconfig-vaultstorageconfig-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-backupstorageconfig-vaultstorageconfig-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/site-recovery/
