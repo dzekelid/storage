@@ -67,6 +67,48 @@ x-common:
   url: https://www.dropbox.com/developers/webhooks/docs
 - type: x-website
   url: https://www.dropbox.com
+- type: x-application-management
+  url: https://www.dropbox.com/developers/apps
+- type: x-base
+  url: https://api.dropbox.com/
+- type: x-blog
+  url: https://blog.dropbox.com/
+- type: x-blog-rss
+  url: https://blog.dropbox.com/feed/
+- type: x-branding
+  url: https://www.dropbox.com/developers/reference/branding
+- type: x-branding
+  url: https://www.dropbox.com/branding
+- type: x-contact-form
+  url: https://www.dropbox.com/developers/contact
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/dropbox
+- type: x-developer
+  url: https://www.dropbox.com/developers
+- type: x-faq
+  url: https://www.dropbox.com/developers/support
+- type: x-forum
+  url: https://www.dropboxforum.com/hc/communities/public/topics/200209245-API-Development
+- type: x-github
+  url: https://github.com/dropbox
+- type: x-pricing
+  url: https://www.dropbox.com/plans
+- type: x-privacy
+  url: https://www.dropbox.com/privacy
+- type: x-stack-overflow
+  url: http://stackoverflow.com/questions/tagged/dropbox-api?sort=votes&pagesize=15
+- type: x-support
+  url: https://www.dropbox.com/help
+- type: x-terms-of-service
+  url: https://www.dropbox.com/privacy#terms
+- type: x-transparency-report
+  url: https://www.dropbox.com/transparency
+- type: x-twitter
+  url: https://twitter.com/dropbox
+- type: x-webhooks
+  url: https://www.dropbox.com/developers/webhooks/docs
+- type: x-website
+  url: https://www.dropbox.com
 include: []
 maintainers:
 - FN: Kin Lane
