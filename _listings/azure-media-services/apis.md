@@ -27,7 +27,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
+- name: Azure Media Services API Media Service Sync Storage Keys
+  description: Synchronizes storage account keys for a storage account associated
+    with the Media Service account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
+  humanURL: https://azure.microsoft.com/en-us/services/media-services/
+  baseURL: http:://management.azure.com//
+  tags: Storage
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/media-services/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/media-services/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/media-services/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/media-services/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
 - type: x-pricing
