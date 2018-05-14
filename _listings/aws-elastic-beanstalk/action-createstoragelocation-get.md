@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Create Storage Location
   version: 1.0.0
+  description: Creates the Amazon S3 storage location for the account.
 schemes:
 - http
 produces:
