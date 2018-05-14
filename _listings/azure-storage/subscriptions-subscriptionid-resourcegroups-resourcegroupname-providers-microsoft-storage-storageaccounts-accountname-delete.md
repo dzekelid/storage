@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Storage Accounts Delete
   version: 1.0.0
+  description: Deletes a storage account in Microsoft Azure.
 host: management.azure.com
 basePath: /
 schemes:
