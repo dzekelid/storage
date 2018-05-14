@@ -35,7 +35,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-storage-gateway-service/action-describeworkingstorage-get.md
+- name: AWS Storage Gateway Service API Add Working Storage
+  description: Configures one or more gateway local disks as working storage for a
+    gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: http:://{host}//
+  tags: Storage
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-storage-gateway-service/action-addworkingstorage-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
+- type: x-faq
+  url: https://aws.amazon.com/storagegateway/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/storagegateway/pricing/
+- type: x-website
+  url: https://aws.amazon.com/storagegateway/
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
 - type: x-faq
