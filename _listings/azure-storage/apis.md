@@ -5,10 +5,10 @@ description: Azure Storage offers non-relational data storage including Blob Sto
   Table Storage, Queue Storage, and Files.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Storage
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   tags: Storage Accounts Name Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidprovidersmicrosoftstoragechecknameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidprovidersmicrosoft-storagechecknameavailability-post-openapi.md
 - name: Azure Storage API Storage Accounts Create
   x-api-slug: azure-storage-api
   description: Asynchronously creates a new storage account with the specified parameters.
@@ -36,7 +36,7 @@ apis:
   tags: Storage Accounts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountname-put-openapi.md
 - name: Azure Storage API Storage Accounts Delete
   x-api-slug: azure-storage-api
   description: Deletes a storage account in Microsoft Azure.
@@ -46,9 +46,9 @@ apis:
   tags: Storage Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountname-delete-openapi.md
 - name: Azure Storage API Storage Accounts Get Properties
   x-api-slug: azure-storage-api
   description: Returns the properties for the specified storage account including
@@ -60,9 +60,9 @@ apis:
   tags: Storage Accounts Properties
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountname-get-openapi.md
 - name: Azure Storage API Storage Accounts Update
   x-api-slug: azure-storage-api
   description: The update operation can be used to update the SKU, encryption, access
@@ -80,7 +80,7 @@ apis:
   tags: Storage Accounts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountname-patch-openapi.md
 - name: Azure Storage API Storage Accounts List
   x-api-slug: azure-storage-api
   description: Lists all the storage accounts available under the subscription. Note
@@ -91,9 +91,9 @@ apis:
   tags: Storage Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidprovidersmicrosoftstoragestorageaccounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidprovidersmicrosoft-storagestorageaccounts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidprovidersmicrosoftstoragestorageaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidprovidersmicrosoft-storagestorageaccounts-get-openapi.md
 - name: Azure Storage API Storage Accounts List By Resource Group
   x-api-slug: azure-storage-api
   description: Lists all the storage accounts available under the given resource group.
@@ -104,9 +104,9 @@ apis:
   tags: Storage Accounts Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccounts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccounts-get-openapi.md
 - name: Azure Storage API Storage Accounts List Keys
   x-api-slug: azure-storage-api
   description: Lists the access keys for the specified storage account.
@@ -116,9 +116,9 @@ apis:
   tags: Storage Accounts Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountnamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountnamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnamelistkeys-post-openapi.md
 - name: Azure Storage API Storage Accounts Regenerate Key
   x-api-slug: azure-storage-api
   description: Regenerates one of the access keys for the specified storage account.
@@ -128,7 +128,7 @@ apis:
   tags: Storage Accounts Regenerate Key
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountnameregeneratekey-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnameregeneratekey-post-openapi.md
 - name: Azure Storage API Storage Accounts List Account SAS
   x-api-slug: azure-storage-api
   description: List SAS credentials of a storage account.
@@ -138,7 +138,7 @@ apis:
   tags: Storage Accounts Account Sas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountnamelistaccountsas-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnamelistaccountsas-post-openapi.md
 - name: Azure Storage API Storage Accounts List Service SAS
   x-api-slug: azure-storage-api
   description: List service SAS credentials of a specific resource.
@@ -148,7 +148,7 @@ apis:
   tags: Storage Accounts Service Sas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftstoragestorageaccountsaccountnamelistservicesas-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnamelistservicesas-post-openapi.md
 - name: Azure Storage API
   x-api-slug: azure-storage-api
   description: Azure Storage offers non-relational data storage including Blob Storage,

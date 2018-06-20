@@ -1,21 +1,40 @@
 ---
 name: Dropbox
 x-slug: dropbox
-description: Dropbox is a file hosting service operated by Dropbox, Inc., that offers
-  cloud storage, file synchronization, and client software. Dropbox allows users to
-  create a special folder on each of their computers, which Dropbox then synchronizes
-  so that it appears to be the same folder (with the same contents) regardless of
-  which computer is used to view it. Files placed in this folder also are accessible
-  through a website and mobile phone applications.
-image: https://avatars.githubusercontent.com/u/559357?v=3
+description: Dropbox is a modern workspace designed to reduce busywork-so you can
+  focus on the things that matter. Sign in and put your creative energy to work.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "89"
 tags: Storage
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Cloud Elements - Dropbox For Business API Get Storage
+  x-api-slug: cloud-elements--dropbox-for-business-api
+  description: Get storage.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1/team//reports/get_storage
+  tags: Storage
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/reportsget-storage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/reportsget-storage-post-openapi.md
+- name: Cloud Elements - Dropbox For Business API
+  x-api-slug: cloud-elements--dropbox-for-business-api
+  description: Dropbox is a modern workspace designed to reduce busywork-so you can
+    focus on the things that matter. Sign in and put your creative energy to work.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1/team
+  tags: Storage
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/openapi.md
 - name: Dropbox Content Downloads a file.
   x-api-slug: dropbox-content
   description: |-
@@ -23,8 +42,8 @@ apis:
 
     This method also supports [HTTP Range Retrieval Requests](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.2)
     to allow retrieving partial file contents.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//files/{root}/{path}
   tags: Storage,Documents,Files,Root,Path
   properties:
@@ -46,8 +65,8 @@ apis:
     **Note:** `/files_put` has a maximum file size limit of 150 MB and does not support uploads with chunked
     encoding. To upload larger files, use [/chunked_upload](https://www.dropbox.com/developers/core/docs#chunked-upload)
     instead.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//files_put/{root}/{path}
   tags: Storage,Documents,Files,Put,Root,Path
   properties:
@@ -67,8 +86,8 @@ apis:
     **Note:** `/files_put` has a maximum file size limit of 150 MB and does not support uploads with chunked
     encoding. To upload larger files, use [/chunked_upload](https://www.dropbox.com/developers/core/docs#chunked-upload)
     instead.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//files_put/{root}/{path}
   tags: Storage,Documents,Files,Put,Root,Path
   properties:
@@ -82,8 +101,8 @@ apis:
     This method currently supports files with the following file extensions: .jpg, .jpeg, .png, .tiff, .tif, .gif, .bmp
 
     Photos that are larger than 20MB in size won't be converted to a thumbnail.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//thumbnails/{root}/{path}
   tags: Storage,Documents,Thumbnails,Root,Path
   properties:
@@ -96,8 +115,8 @@ apis:
 
     Previews are only generated for the files with the following extensions: .doc, .docx, .docm, .ppt, .pps,
     .ppsx, .ppsm, .pptx, .pptm, .xls, .xlsx, .xlsm, .rtf
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//previews/{root}/{path}
   tags: Storage,Documents,Previews,Root,Path
   properties:
@@ -126,8 +145,8 @@ apis:
     (in bytes) within the file and then resume uploading from that point.
 
     A chunked upload can take a maximum of 48 hours before expiring.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//chunked_upload
   tags: Storage,Documents,Chunked,Upload
   properties:
@@ -142,8 +161,8 @@ apis:
     `/commit_chunked_upload` is similar to `/files_put`. The main difference is that while `/files_put` takes the
     file contents in the request body, `/commit_chunked_upload` takes a parameter `upload_id`, which is obtained
     when the file contents are uploaded via `/chunked_upload`.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1//commit_chunked_upload/{root}/{path}
   tags: Storage,Documents,Commit,Chunked,Upload,Root,Path
   properties:
@@ -151,14 +170,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/commit-chunked-uploadrootpath-post-openapi.md
 - name: Dropbox Content
   x-api-slug: dropbox-content
-  description: Dropbox is a file hosting service operated by Dropbox, Inc., that offers
-    cloud storage, file synchronization, and client software. Dropbox allows users
-    to create a special folder on each of their computers, which Dropbox then synchronizes
-    so that it appears to be the same folder (with the same contents) regardless of
-    which computer is used to view it. Files placed in this folder also are accessible
-    through a website and mobile phone applications.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  description: Dropbox is a modern workspace designed to reduce busywork-so you can
+    focus on the things that matter. Sign in and put your creative energy to work.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1
   tags: Storage
   properties:
@@ -169,8 +184,8 @@ apis:
   description: |-
     This endpoint should be used by apps transitioning from OAuth 1 to OAuth 2. It will return an OAuth 2 token
     for the authenticated user.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//oauth2/token_from_oauth1
   tags: Storage,Documents,Oauth2,Token_from_oauth1
   properties:
@@ -182,8 +197,8 @@ apis:
   x-api-slug: dropbox-core
   description: Disables the access token used to authenticate the call. This method
     works for OAuth 1 and OAuth 2 tokens.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//disable_access_token
   tags: Storage,Documents,Disable_access_token
   properties:
@@ -194,8 +209,8 @@ apis:
 - name: Dropbox Core Retrieves information about the user's account.
   x-api-slug: dropbox-core
   description: Retrieves information about the user's account.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//account/info
   tags: Storage,Documents,Account,Info
   properties:
@@ -209,8 +224,8 @@ apis:
     Retrieves file and folder metadata.
 
     **Note:** `modified`, `rev`, and `revision` aren't returned in the metadata for the root/top-level path.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//metadata/{root}/{path}
   tags: Storage,Documents,Metadata,Root,Path
   properties:
@@ -262,8 +277,8 @@ apis:
     **Note:** Dropbox treats file names in a case-insensitive but case-preserving way. To facilitate this,
     the `` values above are lower-cased versions of the actual path. The last path component of the
     `` value will be case-preserved.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//delta
   tags: Storage,Documents,Delta
   properties:
@@ -284,8 +299,8 @@ apis:
     already exist in Dropbox.
 
     If you need to build local state to match the server state in Dropbox, you should instead use `/delta`.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//delta/latest_cursor
   tags: Storage,Documents,Delta,Latest_cursor
   properties:
@@ -302,8 +317,8 @@ apis:
     Only revisions up to thirty days old are available (or more if the Dropbox user has
     [Extended Version History](https://www.dropbox.com/help/113)). You can use the revision number in conjunction
     with the `/restore` call to revert the file to its previous state.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//revisions/{root}/{path}
   tags: Storage,Documents,Revisions,Root,Path
   properties:
@@ -318,8 +333,8 @@ apis:
 
     Unlike downloading a file at a given revision and then re-uploading it, this call is atomic. It also saves
     a bunch of bandwidth.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//restore/{root}/{path}
   tags: Storage,Documents,Restore,Root,Path
   properties:
@@ -335,8 +350,8 @@ apis:
     Searches are limited to the folder path and its sub-folder hierarchy provided in the call.
 
     **Note:** Recent changes may not immediately be reflected in search results due to a short delay in indexing.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//search/{root}/{path}
   tags: Storage,Documents,Search,Root,Path
   properties:
@@ -352,8 +367,8 @@ apis:
     Searches are limited to the folder path and its sub-folder hierarchy provided in the call.
 
     **Note:** Recent changes may not immediately be reflected in search results due to a short delay in indexing.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//search/{root}/{path}
   tags: Storage,Documents,Search,Root,Path
   properties:
@@ -375,8 +390,8 @@ apis:
       * `SHARED_FOLDER_ONLY` - only [members](https://www.dropbox.com/help/6636) of the enclosing shared folder can view
 
     Note that other values may be added at any time.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//shares/{root}/{path}
   tags: Storage,Documents,Shares,Root,Path
   properties:
@@ -395,8 +410,8 @@ apis:
 
     The `/media` link expires after four hours, allotting enough time to stream files, but not enough to leave
     a connection open indefinitely.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//media/{root}/{path}
   tags: Storage,Documents,Media,Root,Path
   properties:
@@ -411,8 +426,8 @@ apis:
 
     This reference string can be used to copy that file to another user's Dropbox by passing it in as the
     `from_copy_ref` parameter on [/fileops/copy](https://www.dropbox.com/developers/core/docs#fileops-copy).
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//copy_ref/{root}/{path}
   tags: Storage,Documents,Copy,Root,Path
   properties:
@@ -434,8 +449,8 @@ apis:
     The `membership` field only contains users who have joined the shared folder and does not include users who
     have been invited but have not accepted. When the `active` field is `false`, it means that a user has left
     a shared folder (but may still rejoin).
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//shared_folders
   tags: Storage,Documents,Shared_folders
   properties:
@@ -457,8 +472,8 @@ apis:
     The `membership` field only contains users who have joined the shared folder and does not include users who
     have been invited but have not accepted. When the `active` field is `false`, it means that a user has left
     a shared folder (but may still rejoin).
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//shared_folders/{shared_folder_id}
   tags: Storage,Documents,Shared_folders,Shared_folder_id
   properties:
@@ -472,8 +487,8 @@ apis:
     Save a file from the specified URL into Dropbox.
 
     If the given path already exists, the file will be renamed to avoid the conflict (e.g. `myfile (1).txt`).
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//save_url/{root}/{path}
   tags: Storage,Documents,URL,Root,Path
   properties:
@@ -488,8 +503,8 @@ apis:
     The job has not yet started.\n  * `DOWNLOADING` \u2013 The job has started but
     hasn't yet completed.\n  * `COMPLETE` \u2013 The job is complete.\n  * `FAILED`
     \u2013 The job failed. An additional `error` field will describe the failure."
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//save_url_job/{job-id}
   tags: Storage,Documents,Save_url_job,Job-id
   properties:
@@ -500,8 +515,8 @@ apis:
 - name: Dropbox Core Copies a file or folder to a new location.
   x-api-slug: dropbox-core
   description: Copies a file or folder to a new location.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//fileops/copy
   tags: Storage,Documents,Fileops,Copy
   properties:
@@ -512,8 +527,8 @@ apis:
 - name: Dropbox Core Creates a folder.
   x-api-slug: dropbox-core
   description: Creates a folder.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//fileops/create_folder
   tags: Storage,Documents,Fileops,Create_folder
   properties:
@@ -524,8 +539,8 @@ apis:
 - name: Dropbox Core Deletes a file or folder.
   x-api-slug: dropbox-core
   description: Deletes a file or folder.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//fileops/delete
   tags: Storage,Documents,Fileops,Delete
   properties:
@@ -536,8 +551,8 @@ apis:
 - name: Dropbox Core Moves a file or folder to a new location.
   x-api-slug: dropbox-core
   description: Moves a file or folder to a new location.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1//fileops/move
   tags: Storage,Documents,Fileops,Move
   properties:
@@ -547,14 +562,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/fileopsmove-post-openapi.md
 - name: Dropbox Core
   x-api-slug: dropbox-core
-  description: Dropbox is a file hosting service operated by Dropbox, Inc., that offers
-    cloud storage, file synchronization, and client software. Dropbox allows users
-    to create a special folder on each of their computers, which Dropbox then synchronizes
-    so that it appears to be the same folder (with the same contents) regardless of
-    which computer is used to view it. Files placed in this folder also are accessible
-    through a website and mobile phone applications.
-  image: https://avatars.githubusercontent.com/u/559357?v=3
-  humanURL: https://www.dropbox.com
+  description: Dropbox is a modern workspace designed to reduce busywork-so you can
+    focus on the things that matter. Sign in and put your creative energy to work.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
   tags: Storage
   properties:
@@ -577,8 +588,20 @@ x-common:
   url: https://www.dropbox.com/developers/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/dropbox
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/dropbox
 - type: x-developer
   url: https://www.dropbox.com/developers
+- type: x-email
+  url: privacyshield@dropbox.com
+- type: x-email
+  url: privacy@dropbox.com
+- type: x-email
+  url: contractnotices@dropbox.com
+- type: x-email
+  url: copyright@dropbox.com
+- type: x-email
+  url: dispute-notice@dropbox.com
 - type: x-faq
   url: https://www.dropbox.com/developers/support
 - type: x-forum
@@ -601,6 +624,8 @@ x-common:
   url: https://twitter.com/dropbox
 - type: x-webhooks
   url: https://www.dropbox.com/developers/webhooks/docs
+- type: x-website
+  url: http://dropbox.com
 - type: x-website
   url: https://www.dropbox.com
 include: []

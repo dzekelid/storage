@@ -8,10 +8,10 @@ description: Azure Media Services gives you broadcast-quality video streaming se
   your content.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Storage
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Media Service Sync Storage Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicenamesyncstoragekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamesyncstoragekeys-post-openapi.md
 - name: Azure Media Services API
   x-api-slug: azure-media-services-api
   description: Azure Media Services gives you broadcast-quality video streaming services

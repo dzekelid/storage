@@ -4,7 +4,7 @@ x-collection-name: Dropbox
 x-complete: 1
 info:
   title: Dropbox Core API v1
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswwwdropboxcommobileand-our-sdkshttpswwwdropboxcomdeveloperscoresdk-its-the-most-direct-way-to-access-the-api-thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail
+  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
   termsOfService: https://www.dropbox.com/developers/reference/tos
   contact:
     name: Dropbox

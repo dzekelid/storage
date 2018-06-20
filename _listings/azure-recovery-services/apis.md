@@ -7,10 +7,10 @@ description: Learn how to use Site Recovery for business continuity and disaster
   and virtual machines to the cloud or to a secondary datacenter.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-site-recovery.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Storage
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Backup Storage Configs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftrecoveryservicesvaultsvaultnamebackupstorageconfigvaultstorageconfig-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-recoveryservicesvaultsvaultnamebackupstorageconfigvaultstorageconfig-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftrecoveryservicesvaultsvaultnamebackupstorageconfigvaultstorageconfig-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-recoveryservicesvaultsvaultnamebackupstorageconfigvaultstorageconfig-get-openapi.md
 - name: Azure Recovery Service API Backup Storage Configs Update
   x-api-slug: azure-recovery-service-api
   description: Updates vault storage model type.
@@ -35,7 +35,7 @@ apis:
   tags: Backup Storage Configs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftrecoveryservicesvaultsvaultnamebackupstorageconfigvaultstorageconfig-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-recovery-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-recoveryservicesvaultsvaultnamebackupstorageconfigvaultstorageconfig-patch-openapi.md
 - name: Azure Recovery Service API
   x-api-slug: azure-recovery-service-api
   description: Learn how to use Site Recovery for business continuity and disaster

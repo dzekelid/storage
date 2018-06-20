@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Storage
-x-complete: 1
+x-complete: 0
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Storage Accounts Regenerate Key
   version: 1.0.0
+  description: Regenerates one of the access keys for the specified storage account.
 host: management.azure.com
 basePath: /
 schemes:
@@ -201,51 +202,17 @@ paths:
           description: OK
       tags:
       - Storage Accounts Regenerate Key
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/ListAccountSas
-  : post:
-      summary: Storage Accounts List Account SAS
-      description: List SAS credentials of a storage account.
-      operationId: StorageAccounts_ListAccountSAS
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnamelistaccountsas-post
-      parameters:
-      - in: path
-        name: accountName
-        description: The name of the storage account within the specified resource
-          group
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The parameters to provide to list SAS credentials for the storage
-          account
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Storage Accounts Account Sas
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/ListServiceSas
-  : post:
-      summary: Storage Accounts List Service SAS
-      description: List service SAS credentials of a specific resource.
-      operationId: StorageAccounts_ListServiceSAS
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-storagestorageaccountsaccountnamelistservicesas-post
-      parameters:
-      - in: path
-        name: accountName
-        description: The name of the storage account within the specified resource
-          group
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The parameters to provide to list service SAS credentials
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Storage Accounts Service Sas
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
