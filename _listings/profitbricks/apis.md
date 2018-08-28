@@ -1,28 +1,22 @@
 ---
 name: ProfitBricks
+x-slug: profitbricks
 description: ProfitBricks - Cloud Computing 2.0 - is the cloud infrastructure-as-a-service
   (IaaS) company offering more speed and flexibility than any other cloud provider.
-  Founded in 2010 by the previous co-founders of 1amp;1 Internet, ProfitBricks has
-  built the worlds first, true virtual datacenter, enabling users custom defined instances
-  with live vertical scaling and class-leading double redundant cloud storage ???
-  all with simple and transparent minute-based billing. nnIt also developed the first
-  graphical Data Center Designer that makes the ProfitBricks Cloud Computing service
-  the easiest to setup and maintain. Headquartered in Berlin, Germany and Boston,
-  Mass., ProfitBricks can be found online at http://www.ProfitBricks.com.
+  Founded in 2010 by the previous co-founders of 1&amp;1 Internet, ProfitBricks has
+  built the world&#8217;s first, true virtual datacenter, enabling users custom defined
+  instances with live vertical scaling and class-leading double redundant cloud storage
+  ??? all with simple and transparent minute-based billing. It also developed the
+  first graphical Data Center Designer that makes the ProfitBricks Cloud Computing
+  service the easiest to setup and maintain. Headquartered in Berlin, Germany and
+  Boston, Mass., ProfitBricks can be found online at http://www.ProfitBricks.com.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1464_logo.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Storage
-- Storage
-- Stack Network
-- Hosting
-- Cloud
-- Cloud
-- Backup
-created: "2018-02-26"
-modified: "2018-02-26"
-url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/profitbricks/apis.yaml
+x-alexaRank: "0"
+tags: Storage
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/profitbricks/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

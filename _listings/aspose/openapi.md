@@ -1,20 +1,17 @@
----
 swagger: "2.0"
 x-collection-name: Aspose
 x-complete: 1
 info:
-  title: Aspose.Storage API
-  description: the-aspose-for-cloud-file-storage-api-lets-you-upload-and-download-files-for-use-with-our-product-apis
-  termsOfService: http://www.aspose.com/corporate/legal/terms-of-use.aspx
-  version: v1.1
-host: api.aspose.com
-basePath: /v1.1
+  title: Aspose
+  version: 1.0.0
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.aspose.com
+basePath: /v1.1
 paths:
   /storage/disc:
     get:
@@ -133,4 +130,3 @@ paths:
       - Storage
       - Folder
       - Folder
----

@@ -1,0 +1,812 @@
+{
+	"name": "Streadata.io API Gallery - Storage",
+	"description": "This is a repository of storage APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/storage.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://storage.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Apple",
+			"x-api-slug": "apple",
+			"description": "https://t.co/jw2s2L0RLt",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/155-apple.jpg",
+			"humanURL": "http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/apple/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dropbox",
+			"x-api-slug": "dropbox",
+			"description": "Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg",
+			"humanURL": "http://dropbox.com",
+			"baseURL": "https://api-notify.dropbox.com//1",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HP",
+			"x-api-slug": "hp",
+			"description": "Learn about HP laptops, pc desktops, printers, accessories and more at the Official HP Website",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/212-hp.jpg",
+			"humanURL": "http://map.hpl.hp.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/hp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rackspace",
+			"x-api-slug": "rackspace",
+			"description": "Host on our dedicated or cloud infrastructure or through one of our partners. Leverage our expertise to run fast and lean. We offer web, app or email hosting, data services and managed security solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg",
+			"humanURL": "http://www.rackspace.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/rackspace/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SugarSync",
+			"x-api-slug": "sugarsync",
+			"description": "SugarSync is a cloud file sharing, file sync and online backup service that is simple, powerful and easy to use. Unlike Dropbox, SugarSync enables you to back up your existing folder structure. Try it for FREE for 30 days and get started today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg",
+			"humanURL": "http://sugarsync.com",
+			"baseURL": "https://api.sugarsync.com//",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/sugarsync/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CloudApp",
+			"x-api-slug": "cloudapp",
+			"description": "CloudApp is a video and image sharing platform for professionals. Record your screen in HD, markup a screenshot, or produce a beautiful GIF and instantly share it in your favorite tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/559-cloudapp.jpg",
+			"humanURL": "http://getcloudapp.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/cloudapp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fluxiom",
+			"x-api-slug": "fluxiom",
+			"description": "Fluxiom offers seamless online file management in the cloud. Keep your files private, share them with a select audience or broadcast them to the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg",
+			"humanURL": "http://fluxiom.com",
+			"baseURL": "https://{subdomain}.fluxiom.com//api/{format}",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/fluxiom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Put.io",
+			"x-api-slug": "put-io",
+			"description": "Put.io: Stash your digital goods here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/640-put-io.jpg",
+			"humanURL": "http://put.io/",
+			"baseURL": "https://api.put.io/v2///v2",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/put-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BrickFTP",
+			"x-api-slug": "brickftp",
+			"description": "Secure FTP server hosting with web, FTP, SFTP, WebDAV, LDAP & sharing options. Great for companies, large files and video. Instant setup.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/715-brickftp.jpg",
+			"humanURL": "http://brickftp.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/brickftp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TappIn",
+			"x-api-slug": "tappin",
+			"description": "TappIn revolutionizes your ability to securely and easily share and access digital files stores on a home or work computer from any web browser or smartphone.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/949-tappin.jpg",
+			"humanURL": "http://www.tappin.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/tappin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Exosite",
+			"x-api-slug": "exosite",
+			"description": "Exosite is a leading Internet of Things (IoT) platform that makes it easy to build connected products, solutions, and businesses. Get started for free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1006-exosite.jpg",
+			"humanURL": "http://exosite.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/exosite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ge.tt",
+			"x-api-slug": "ge-tt",
+			"description": "Extremely simple realtime filesharing. No signup required. Share any number of photos, videos, music, anything - in seconds - no matter how large.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1012-ge-tt.jpg",
+			"humanURL": "http://ge.tt",
+			"baseURL": "https://open.ge.tt//1",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/ge-tt/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IDrive",
+			"x-api-slug": "idrive",
+			"description": "Built with developers in mind, IDrive Encrypted Versioned file System is a powerful, easy to use service that provides secure, encrypted and versioned cloud storage. Unlike other generic storage systems, IDrive EVS has storage encryption, versioning and block level incremental transfers built in both-ways for uploads and downloads. This gives you the freedom to develop innovative applications to customize your Backup, Storage, Sync, Sharing, Disaster recovery and more that are highly efficient, scalable and require minimal coding. It provides powerful APIs for uploading, retrieving, managing data and storage, at any time, from anywhere on the Internet.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1055-idrive-online-backup.jpg",
+			"humanURL": "https://www.idrive.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/idrive/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pogoplug",
+			"x-api-slug": "pogoplug",
+			"description": "Get instant, secure remote access to your computer and hard drive from any device. Free trial. $29.95 per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1115-pogoplug.jpg",
+			"humanURL": "http://download.pogoplug.com/dev/web.html",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/pogoplug/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM",
+			"x-api-slug": "ibm",
+			"description": "IBM is a global technology and innovation company headquartered in Armonk, NY. It is the largest technology and consulting employer in the world, with more than 400,000 employees serving clients in 170 countries. IBM offers a wide range of technology and consulting services; a broad portfolio of middleware for collaboration, predictive analytics, software development and systems management; and the worlds most advanced servers and supercomputers. Utilizing its business consulting, technology and R&amp;D expertise, IBM helps clients become smarter as the planet becomes more digitally interconnected.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1255-cloudant.jpg",
+			"humanURL": "https://ibm.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/ibm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Filestack",
+			"x-api-slug": "filestack",
+			"description": "100,000+ applications utilize Filestack???s technology to leverage the world???s best file uploading speed, reliability and overall user experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1261-filestack.jpg",
+			"humanURL": "https://www.filestack.com",
+			"baseURL": "https://www.filepicker.io/api///api",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/filestack/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ProfitBricks",
+			"x-api-slug": "profitbricks",
+			"description": "ProfitBricks - Cloud Computing 2.0 - is the cloud infrastructure-as-a-service (IaaS) company offering more speed and flexibility than any other cloud provider. Founded in 2010 by the previous co-founders of 1&amp;1 Internet, ProfitBricks has built the world&#8217;s first, true virtual datacenter, enabling users custom defined instances with live vertical scaling and class-leading double redundant cloud storage ??? all with simple and transparent minute-based billing. It also developed the first graphical Data Center Designer that makes the ProfitBricks Cloud Computing service the easiest to setup and maintain. Headquartered in Berlin, Germany and Boston, Mass., ProfitBricks can be found online at http://www.ProfitBricks.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1464_logo.jpg",
+			"humanURL": "http://www.profitbricks.co.uk/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/profitbricks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mega",
+			"x-api-slug": "mega",
+			"description": "Mega provides a cloud file system at your fingertips, including cross-account folder sharing for easy online collaboration. The new Mega encrypts and decrypts your data transparently in your browser, on the fly. High-speed parallel batch uploading and downloading with resume capability are integral parts of the Mega service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1543_logo.png",
+			"humanURL": "https://mega.co.nz",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/mega/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Drillster",
+			"x-api-slug": "drillster",
+			"description": "Drillster is an adaptive online learning and test application. Its unique algorithm ensures that users learn easy and retain information much better.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1562-drillster.jpg",
+			"humanURL": "http://www.drillster.com/info/api",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/drillster/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kloudless",
+			"x-api-slug": "kloudless",
+			"description": "The last set of APIs youll ever need to build apps that integrate File Storage, CRM, Email, Calendar, Marketing, ITSM, and more. Get started for free!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1700-kloudless.jpg",
+			"humanURL": "https://kloudless.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/kloudless/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aspose",
+			"x-api-slug": "aspose",
+			"description": ".NET Java Cloud SharePoint Android SSRS and JasperReports file format APIs for developers. Integrate in any enterprise level web desktop and mobile application",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg",
+			"humanURL": "http://www.aspose.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cloud Elements",
+			"x-api-slug": "cloud-elements",
+			"description": "Cloud Elements is the leading API integration platform for SaaS app providers and the digital enterprise. Turn integration into your competitive advantage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9066-cloud-elements.jpg",
+			"humanURL": "http://www.cloud-elements.com/",
+			"baseURL": "://console.cloud-elements.com//elements/api-v2/hubs/crm",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/cloud-elements/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OVH",
+			"x-api-slug": "ovh",
+			"description": "OVH offers a vast range of IT services for businesses and technophiles in particular. From web hosting to virtual data centers, dedicated servers and storage solutions, all our services benefit from continuous innovation and are regularly enriched with new features. Cloud infrastructures, dedicated hosting, virtual servers, domain names, e-commerce, storage and archives, OVH brings you the solutions you need develop all your IT projects.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ovh-logo.png",
+			"humanURL": "http://www.ovh.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/ovh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Storj",
+			"x-api-slug": "storj",
+			"description": "Distributed, encrypted, and blazing fast object storage, where only you have access to your data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18695-storj.jpg",
+			"humanURL": "https://storj.io",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/storj/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Uploadcare",
+			"x-api-slug": "uploadcare",
+			"description": "Beautiful HTML5 widget, API to manage files in cloud storage, smart and fast CDN to deliver them to your end users. Crop, resize and transform uploaded images using URL commands. Transfer entire HD videos, documents and huge sets of photos, upload media from different sources. With Uploadcare your users can upload files up to 5 TB in size.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uploadcare-logo.png",
+			"humanURL": "https://uploadcare.com/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/uploadcare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS S3",
+			"x-api-slug": "aws-s3",
+			"description": "Amazon Simple Storage Service (Amazon S3) is object storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is designed to deliver 99.999999999% durability, and scale past trillions of objects worldwide.Customers use S3 as a bulk repository, or data lake, for analytics; backup &amp; recovery; disaster recovery; and serverless computing. Many cloud-native applications even use S3 as primary storage.Its simple to move large volumes of data into or out of S3 with Amazonscloud data migrationoptions. Once data is stored in Amazon S3, it can be automatically tiered into lower cost, longer-termcloud storageclasses like S3 Standard - Infrequent Access and Amazon Glacier for archiving.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png",
+			"humanURL": "https://aws.amazon.com/s3/",
+			"baseURL": "https:////",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-s3/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic Beanstalk",
+			"x-api-slug": "aws-elastic-beanstalk",
+			"description": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java,.NET, PHP, Node.js, Python, Ruby, Go, andDockeron familiar servers such as Apache, Nginx, Passenger, andIIS.You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.There is no additional charge for Elastic Beanstalk - you pay only for the AWS resources needed to store and run your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png",
+			"humanURL": "https://aws.amazon.com/elasticbeanstalk/",
+			"baseURL": ":///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-elastic-beanstalk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Glacier",
+			"x-api-slug": "aws-glacier",
+			"description": "Amazon Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. Customers can reliably store large or small amounts of data for as little as $0.004 per gigabyte per month, a significant savings compared to on-premises solutions. To keep costs low yet suitable for varying retrieval needs, Amazon Glacier provides three options for access to archives, from a few minutes to several hours.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png",
+			"humanURL": "https://aws.amazon.com/glacier/",
+			"baseURL": ":///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-glacier/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudFront",
+			"x-api-slug": "aws-cloudfront",
+			"description": "Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. It integrates with other Amazon Web Services products to give developers and businesses an easy way to accelerate content to end users with no minimum usage commitments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png",
+			"humanURL": "https://aws.amazon.com/cloudfront/",
+			"baseURL": ":///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-cloudfront/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkDocs",
+			"x-api-slug": "aws-workdocs",
+			"description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.Users can comment on files, send them to others for feedback, and upload new versions without having to resort to emailing multiple versions of their files as attachments. Users can take advantage of these capabilities wherever they are, using the device of their choice, including PCs, Macs, tablets and phones. Amazon WorkDocs offers IT administrators the option of integrating with existing corporate directories, flexible sharing policies and control of the location where data is stored. Customers can get started using Amazon WorkDocs with a 30-day free trial providing 1 TB of storage per user for up to 50 users.Amazon WorkDocs offers an Administrative SDK, currently in public preview. The Administrative SDK allows you to integrate your applications with Amazon WorkDocs by performing content and permissions updates, and managing users, programmatically. You can sign-up for the public preview here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png",
+			"humanURL": "https://aws.amazon.com/workdocs/",
+			"baseURL": ":///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-workdocs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Drive",
+			"x-api-slug": "google-drive",
+			"description": "Google Drive is a file storage and synchronization service operated by Google. It allows users to store files in the cloud, synchronize files across devices, and share files. Google Drive encompasses Google Docs, Sheets and Slides, an office suite that permits collaborative editing of documents, spreadsheets, presentations, drawings, forms, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png",
+			"humanURL": "https://developers.google.com/drive/",
+			"baseURL": "https://www.googleapis.com//drive/v3",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/google-drive/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Storage",
+			"x-api-slug": "google-cloud-storage",
+			"description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving. Google Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Google Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png",
+			"humanURL": "https://cloud.google.com/storage/",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/google-cloud-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"x-api-slug": "azure-data-lake-store",
+			"description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads. For example, data can be ingested in real-time from sensors and devices for IoT solutions, or from online shopping websites into the store without the restriction of fixed limits on account or file size unlike current offerings in the market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-store/",
+			"baseURL": ":////",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-data-lake-store/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Storage",
+			"x-api-slug": "azure-storage",
+			"description": "Azure Storage offers non-relational data storage including Blob Storage, Table Storage, Queue Storage, and Files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/storage/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Egnyte",
+			"x-api-slug": "egnyte",
+			"description": "Egnyte provides secure Enterprise File Sharing and Content Governance built from the Cloud down. Access, Share and Control 100% of your data from anywhere using any smartphone, tablet or computer.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28291-developers-egnyte-com.jpg",
+			"humanURL": "https://developers.egnyte.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/egnyte/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Request Baskets",
+			"x-api-slug": "request-baskets",
+			"description": "",
+			"image": "",
+			"humanURL": "http://rbaskets.in",
+			"baseURL": "https://rbaskets.in//",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/request-baskets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Storage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Storage",
+	"include": [
+		{
+			"name": "Apple",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/apple/apis.yaml"
+		},
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Dropbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/dropbox/apis.yaml"
+		},
+		{
+			"name": "HP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/hp/apis.yaml"
+		},
+		{
+			"name": "Rackspace",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/rackspace/apis.yaml"
+		},
+		{
+			"name": "SugarSync",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/sugarsync/apis.yaml"
+		},
+		{
+			"name": "CloudApp",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/cloudapp/apis.yaml"
+		},
+		{
+			"name": "Fluxiom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/fluxiom/apis.yaml"
+		},
+		{
+			"name": "Put.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/put-io/apis.yaml"
+		},
+		{
+			"name": "BrickFTP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/brickftp/apis.yaml"
+		},
+		{
+			"name": "TappIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/tappin/apis.yaml"
+		},
+		{
+			"name": "Exosite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/exosite/apis.yaml"
+		},
+		{
+			"name": "Ge.tt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/ge-tt/apis.yaml"
+		},
+		{
+			"name": "IDrive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/idrive/apis.yaml"
+		},
+		{
+			"name": "Pogoplug",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/pogoplug/apis.yaml"
+		},
+		{
+			"name": "IBM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/ibm/apis.yaml"
+		},
+		{
+			"name": "Filestack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/filestack/apis.yaml"
+		},
+		{
+			"name": "ProfitBricks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/profitbricks/apis.yaml"
+		},
+		{
+			"name": "Mega",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/mega/apis.yaml"
+		},
+		{
+			"name": "Drillster",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/drillster/apis.yaml"
+		},
+		{
+			"name": "Kloudless",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/kloudless/apis.yaml"
+		},
+		{
+			"name": "Aspose",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/apis.yaml"
+		},
+		{
+			"name": "Cloud Elements",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/cloud-elements/apis.yaml"
+		},
+		{
+			"name": "OVH",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/ovh/apis.yaml"
+		},
+		{
+			"name": "Storj",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/storj/apis.yaml"
+		},
+		{
+			"name": "Uploadcare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/uploadcare/apis.yaml"
+		},
+		{
+			"name": "AWS S3",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-s3/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic Beanstalk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-elastic-beanstalk/apis.yaml"
+		},
+		{
+			"name": "AWS Glacier",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-glacier/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS CloudFront",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-cloudfront/apis.yaml"
+		},
+		{
+			"name": "AWS WorkDocs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aws-workdocs/apis.yaml"
+		},
+		{
+			"name": "Google Drive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/google-drive/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/google-cloud-storage/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-data-lake-store/apis.yaml"
+		},
+		{
+			"name": "Azure Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/azure-storage/apis.yaml"
+		},
+		{
+			"name": "Egnyte",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/egnyte/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Request Baskets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/request-baskets/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/logicbroker/apis.yaml"
+		}
+	]
+}

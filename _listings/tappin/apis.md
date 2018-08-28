@@ -1,24 +1,15 @@
 ---
 name: TappIn
-description: TappIn, Inc., a subsidiary of GlobalSCAPE, is the leading innovator and
-  award-winning provider of digital content access and sharing for mobile users. nbsp;TappIn
-  connects people to content and content to people. The TappIn cloud service makes
-  available documents and rich media to mobile devices (including Apple iPhonereg;
-  and iPadreg;, Googlereg; AndroidTM and Windowsreg; Phone 7) or web-browsers regardless
-  of where files are stored - without having to upload and sync files or pay for additional
-  online storage.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/949_logo.png
+x-slug: tappin
+description: TappIn revolutionizes your ability to securely and easily share and access
+  digital files stores on a home or work computer from any web browser or smartphone.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/949-tappin.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Storage
-- Storage
-- Stack Network
-- Social
-- Cloud
-created: "2018-02-26"
-modified: "2018-02-26"
-url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/tappin/apis.yaml
+x-alexaRank: "595581"
+tags: Storage
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/tappin/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,6 +19,8 @@ x-common:
   url: http://www.tappin.com/blog/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/tappin
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/tappin
 - type: x-developer
   url: http://www.tappin.com/developer-api
 - type: x-twitter

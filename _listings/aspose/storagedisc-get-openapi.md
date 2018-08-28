@@ -8,14 +8,14 @@ info:
     (size in bytes
   termsOfService: http://www.aspose.com/corporate/legal/terms-of-use.aspx
   version: v1.1
-host: api.aspose.com
-basePath: /v1.1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.aspose.com
+basePath: /v1.1
 paths:
   /storage/disc:
     get:

@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Storage
+x-slug: google-cloud-storage
 description: Google Cloud Storage is unified object storage for developers and enterprises,
   from live data serving to data analytics/ML to data archiving. Google Cloud Storage
   allows world-wide storage and retrieval of any amount of data at any time. You can
@@ -8,18 +9,18 @@ description: Google Cloud Storage is unified object storage for developers and e
   to users via direct download.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Storage
-- Stack Network
-- Google APIs
-- Cloud
-created: "2018-02-26"
-modified: "2018-02-26"
-url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/google-cloud-storage/apis.yaml
+x-alexaRank: "0"
+tags: Storage
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/google-cloud-storage/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.sql.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.storage.stack.network
 - type: x-authentication
   url: https://cloud.google.com/storage/docs/authentication
 - type: x-best-practices

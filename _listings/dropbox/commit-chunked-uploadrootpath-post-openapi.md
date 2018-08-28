@@ -25,6 +25,24 @@ produces:
 consumes:
 - application/json
 paths:
+  /reports/get_storage:
+    post:
+      summary: Get Storage
+      description: Get storage.
+      operationId: postReportsGetStorage
+      x-api-path-slug: reportsget-storage-post
+      parameters:
+      - in: query
+        name: end_date
+        description: optional ending date (exclusive)
+      - in: query
+        name: start_date
+        description: optional starting date (inclusive)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Storage
   /files/{root}/{path}:
     get:
       summary: Downloads a file.

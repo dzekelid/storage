@@ -1,0 +1,92 @@
+---
+swagger: "2.0"
+x-collection-name: Plentymarkets
+x-complete: 0
+info:
+  title: Plentymarkets List stock of a variation per storage locations
+  description: Lists stock of a variation per storage location. The ID of the item
+    and the ID of the variation must be specified.
+  contact:
+    name: plentymarkets
+    url: https://forum.plentymarkets.com/c/rest-api
+  version: 1.0.0
+host: example.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /rest/accounts/contacts/{contactId}/document:
+    get:
+      summary: Get a single storage object from contact documents
+      description: Get a single storage object from contact documents.
+      operationId: getRestAccountsContactsContactDocument
+      x-api-path-slug: restaccountscontactscontactiddocument-get
+      parameters:
+      - in: path
+        name: contactId
+      - in: query
+        name: key
+        description: The storage key of the object to get from contact documents
+      responses:
+        200:
+          description: OK
+      tags:
+      - Single
+      - Storage
+      - Object
+      - From
+      - Contact
+      - Documents
+  /rest/items/{id}/variations/{variationId}/stock/storageLocations:
+    get:
+      summary: List stock of a variation per storage locations
+      description: Lists stock of a variation per storage location. The ID of the
+        item and the ID of the variation must be specified.
+      operationId: getRestItemsVariationsVariationStockStoragelocations
+      x-api-path-slug: restitemsidvariationsvariationidstockstoragelocations-get
+      parameters:
+      - in: query
+        name: columns
+        description: The properties to be loaded
+      - in: path
+        name: id
+      - in: query
+        name: itemId
+        description: The ID of the item
+      - in: query
+        name: itemsPerPage
+        description: The number of items per page
+      - in: query
+        name: page
+        description: The requested page
+      - in: path
+        name: variationId
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - Stock
+      - Of
+      - Variation
+      - Per
+      - Storage
+      - Locations
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

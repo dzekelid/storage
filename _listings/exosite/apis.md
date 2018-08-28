@@ -1,24 +1,15 @@
 ---
 name: Exosite
-description: 'Theyve been developing embedded technologies for over 20 years - and
-  have first-hand experience dealing with the lack of connectivity between devices,
-  networks and users. The exponential growth in electronic data implores a ubiquitous
-  connection tool. Exosites One Platform is that tool. Our goal is to make accessing
-  and analyzing data easier than subscribing to a mobile phone service. '
-image: ""
+x-slug: exosite
+description: Exosite is a leading Internet of Things (IoT) platform that makes it
+  easy to build connected products, solutions, and businesses. Get started for free.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1006-exosite.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Storage
-- Stack Network
-- Mobile
-- Internet of Things
-- Freshbooks
-- Cloud storage platform
-- Cloud
-created: "2018-02-26"
-modified: "2018-02-26"
-url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/exosite/apis.yaml
+x-alexaRank: "410070"
+tags: Storage
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/exosite/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -26,6 +17,8 @@ x-common:
   url: http://exosite.com/blog/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/exosite
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/exosite
 - type: x-email
   url: info@exosite.com
 - type: x-github

@@ -1,5 +1,6 @@
 ---
 name: Google Drive
+x-slug: google-drive
 description: Google Drive is a file storage and synchronization service operated by
   Google. It allows users to store files in the cloud, synchronize files across devices,
   and share files. Google Drive encompasses Google Docs, Sheets and Slides, an office
@@ -7,30 +8,18 @@ description: Google Drive is a file storage and synchronization service operated
   drawings, forms, and more.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Storage
-- Stack Network
-- Stack
-- Productivity
-- Google APIs
-- Documents
-created: "2018-02-26"
-modified: "2018-02-26"
-url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/google-drive/apis.yaml
+x-alexaRank: "0"
+tags: Storage
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/google-drive/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Drive
-  description: Google Drive is a file storage and synchronization service operated
-    by Google
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//drive/v3
-  tags: Storage
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/storage/master/_listings/google-drive/teamdrives-teamdriveid-patch.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.doubleclick.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.drive.stack.network
 - type: x-best-practices
   url: https://developers.google.com/drive/v3/web/practices
 - type: x-branding-guidelines

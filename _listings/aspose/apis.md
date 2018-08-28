@@ -7,138 +7,135 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspos
 x-kinRank: "8"
 x-alexaRank: "59913"
 tags: Storage
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Aspose.Storage API Get Storage Disc
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Get Storage Disc
+  x-api-slug: storagedisc-get
   description: The resource represents information about users application disc usage
     (size in bytes
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/disc
-  tags: Storage,Disc
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagedisc-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagedisc-get-openapi.md
-- name: Aspose.Storage API Get Storage Exist Path
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Get Storage Exist Path
+  x-api-slug: storageexistpath-get
   description: The controller checks that the file or folder exists in the service
     file storage.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/exist/{path}
-  tags: Storage,Exist,Path
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storageexistpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storageexistpath-get-openapi.md
-- name: Aspose.Storage API Delete Storage File Path
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Delete Storage File Path
+  x-api-slug: storagefilepath-delete
   description: The resource represents customers file at server file sto
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/file/{path}
-  tags: Storage,File,Path
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-delete-openapi.md
-- name: Aspose.Storage API Get Storage File Path
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Get Storage File Path
+  x-api-slug: storagefilepath-get
   description: The resource represents customers file at server file storage.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/file/{path}
-  tags: Storage,File,Path
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-get-openapi.md
-- name: Aspose.Storage API Post Storage File Path
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Post Storage File Path
+  x-api-slug: storagefilepath-post
   description: The resource represents customers file at server file storage
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/file/{path}
-  tags: Storage,File,Path
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-post-openapi.md
-- name: Aspose.Storage API Put Storage File Path
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Put Storage File Path
+  x-api-slug: storagefilepath-put
   description: The resource represents customers file at server file storage.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/file/{path}
-  tags: Storage,File,Path
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefilepath-put-openapi.md
-- name: Aspose.Storage API Delete Storage Folder Folder
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Delete Storage Folder Folder
+  x-api-slug: storagefolderfolder-delete
   description: The resource represents customer folder at service file storage.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/folder/{folder}
-  tags: Storage,Folder,Folder
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefolderfolder-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefolderfolder-delete-openapi.md
-- name: Aspose.Storage API Get Storage Folder Folder
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Get Storage Folder Folder
+  x-api-slug: storagefolderfolder-get
   description: The resource represents customer folder at service file storage.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/folder/{folder}
-  tags: Storage,Folder,Folder
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefolderfolder-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefolderfolder-get-openapi.md
-- name: Aspose.Storage API Post Storage Folder Folder
-  x-api-slug: aspose-storage-api
+- name: Aspose.Storage API - Post Storage Folder Folder
+  x-api-slug: storagefolderfolder-post
   description: The resource represents customer folder at service file storage.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
   humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1//storage/folder/{folder}
-  tags: Storage,Folder,Folder
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefolderfolder-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/storagefolderfolder-post-openapi.md
-- name: Aspose.Storage API
-  x-api-slug: aspose-storage-api
-  description: Aspose provides cloud-based services for document generation, conversion,
-    and automation. It works with documents created in Microsoft Word, Microsoft Excel,
-    Microsoft PowerPoint, Adobe, and OpenDocument. It is also designed to handle barcodes,
-    optical character recognition (OCR), and email formats and protocols. The Aspose
-    REST APIs enable users to integrate many document processing and management tasks
-    into their applications. These tasks include, but are not limited to, document
-    assembly, file conversion, text extraction, barcode generation, and email tracking.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
-  humanURL: http://www.aspose.com
-  baseURL: https://api.aspose.com//v1.1
-  tags: Storage
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/storage/master/_listings/aspose/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://arlington.national.cemetery.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aspose.stack.network
 - type: x-base
   url: http://api.aspose.com/
 - type: x-blog
